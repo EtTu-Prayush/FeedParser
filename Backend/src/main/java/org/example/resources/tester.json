@@ -1,0 +1,974 @@
+{
+  "@odata.context": "https://api.msn.com/news/$metadata#feed",
+  "value": [
+    {
+      "nextPageUrl": "https://api.msn.com:443/news/feed/me?$top=10&$skip=10&$filter=_t eq 'CompositeCard'&contentType=article,video,slideshow&query=socialentlife&queryType=myFeed&ocid=sprinklr_sch&apikey=u3wt7OMbax8feRFMmzxpFXSE9tJZxAkVlX9c5TrBF7&responseSchema=CardView&market=en-us&timeOut=3000&User=m-060DF7ACFA79675A25B4E329FBDA665E",
+      "subCards": [
+        {
+          "id": "BB1mMotw",
+          "type": "article",
+          "title": "Anne Hathaway Wears a Gap — Yes, Gap — Gown with Dazzling Bulgari Bling",
+          "abstract": "The 'Idea of You' star, 41, wore a custom dress from Gap, designed by its new creative director Zac Posen, to a Bulgari jewelry event in Rome",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/lifestyle/lifestyle-buzz/anne-hathaway-wears-a-gap-yes-gap-gown-with-dazzling-bulgari-bling/ar-BB1mMotw",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [
+              {
+                "stockId": "a1u5hw",
+                "score": 80000100
+              }
+            ],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 1209
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 54
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 8736
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:41:03Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1500,
+              "height": 1000,
+              "quality": 60,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMtvh.img",
+              "attribution": "Provided by People",
+              "title": "Anne Hathaway in Gap",
+              "caption": "Anne Hathaway in Gap",
+              "focalRegion": {
+                "x1": 281,
+                "x2": 815,
+                "y1": 107,
+                "y2": 395
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBlOXnw",
+            "name": "People",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAywHbG.img",
+            "profileId": "vid-7gyfrgwpssqtux8j7bd33mesufqwx2tn5779gamm097vw8rchrus",
+            "lightThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J-dark"
+            }
+          },
+          "category": "lifestyle",
+          "reactionSummary": {
+            "totalCount": 2,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "totalCount": 2,
+                  "type": "upvote"
+                }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Lifestyle",
+              "weight": 0.876384913921356,
+              "feedId": "Y_99096e96-6d4f-401c-832b-461e08143a5a",
+              "locale": "en-us"
+            },
+            {
+              "label": "Lifestyle Buzz",
+              "weight": 0.876384913921356,
+              "feedId": "Y_d1f91b08-899b-49c2-9c7e-321d76cc8ac3",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMlWW",
+          "type": "article",
+          "title": "Jeremy Strong Says 'We're Living in a World Where Trust is on Assault' in Cannes Statement",
+          "abstract": "Jeremy Strong, who plays the vicious lawyer Roy Cohn in Ali Abbasi's \"The Apprentice,\" was unable to attend the film's premiere at the Cannes Film Festival on Monday night because of commitments on Broadway. But the \"Succession\" actor sent a written statement excoriating Trump and Cohn, which Abbasi read at Cannes on Tuesday. \"I deeply wish I could be there with you right now, but I'm onstage in New York doing Henrik Ibsen's play 'An Enemy of...",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/tv/news/jeremy-strong-says-we-re-living-in-a-world-where-trust-is-on-assault-in-cannes-statement/ar-BB1mMlWW",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 5595
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 264
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 4140
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:37:18Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 620,
+              "height": 349,
+              "quality": 88,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lsBFf.img",
+              "attribution": "TheWrap",
+              "title": "the-apprentice-sebastian-stan-donald-trump-jeremy-strong-roy-cohn",
+              "caption": "the-apprentice-sebastian-stan-donald-trump-jeremy-strong-roy-cohn",
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "AA5Hac5",
+            "name": "TheWrap",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAykw7c.img",
+            "profileId": "vid-d7xm3shw7x6g6yj27apj4u5jqfy5bn2uvu8hie87gpwd088ybmbs",
+            "lightThemeSVGLogo": {
+              "width": 90,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gyvS"
+            },
+            "darkThemeSVGLogo": {
+              "width": 90,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gyvS-dark"
+            }
+          },
+          "category": "tv",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentStatus": "off",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "TV",
+              "weight": 0.445009708404541,
+              "feedId": "Y_ecf14ace-5910-4da7-a26f-3919270f1200",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMmsE",
+          "type": "article",
+          "title": "Mouly Surya, Garin Nugroho Projects Among First Recipients of Annual Indonesian Film Grant – Cannes",
+          "abstract": "Indonesia has unveiled the four film projects that will be the pilot recipients of the country’s first government-funded film grant, Film Matchfund, at the Cannes Film Festival. As revealed by Variety, the $13 million annual fund was launched at Cannes 2023 by Nadiem Makarim, Indonesia‘s minister of education, culture, research and technology. It is sourced from […]",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/movies/news/mouly-surya-garin-nugroho-projects-among-first-recipients-of-annual-indonesian-film-grant-cannes/ar-BB1mMmsE",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 8705
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 73
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 1221
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:30:20Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1001,
+              "height": 563,
+              "quality": 99,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1khO8o.img",
+              "attribution": "Provided by Variety",
+              "title": "Mouly Surya Reframes Indonesian History in ‘This City Is a Battlefield' and Comes up With a ‘Casablanca'-Like American Classic (EXCLUSIVE)",
+              "focalRegion": {
+                "x1": 406,
+                "x2": 469,
+                "y1": 90,
+                "y2": 153
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "AA5LioA",
+            "name": "Variety",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA6J22N.img",
+            "profileId": "vid-5rjfjr40gu645cpj6hw5famnjiet7c845t4u4kstc7kjqw3n868s",
+            "lightThemeSVGLogo": {
+              "width": 40,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gFtr"
+            },
+            "darkThemeSVGLogo": {
+              "width": 40,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gFtr-dark"
+            }
+          },
+          "category": "movies",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentStatus": "off",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Movies",
+              "weight": 0.953609168529511,
+              "feedId": "Y_2a7bc05a-60f4-46df-a4ef-e938b38a4ccd",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMlWS",
+          "type": "article",
+          "title": "Ali Abbasi Says Trump Will Probably Think 'The Apprentice' Is 'Demeaning and a Conspiracy'",
+          "abstract": "Donald Trump would not like or dislike \"The Apprentice,\" director Ali Abbasi said at a Cannes Film Festival press conference on Tuesday. \"If I was him, I would be sitting in New Jersey, Florida, wherever he is now… I would think, 'Oh, this crazy Iranian guy, they did this movie and it's f–ked up, and it's demeaning, and it's a conspiracy… \"I don't necessarily think this is a movie he would dislike,\" he added. \"I don't think he would like it, I...",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/politics/ali-abbasi-says-trump-will-probably-think-the-apprentice-is-demeaning-and-a-conspiracy/ar-BB1mMlWS",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 417
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 460
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 9121
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:23:04Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 620,
+              "height": 349,
+              "quality": 88,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMtcp.img",
+              "attribution": "TheWrap",
+              "title": "Ali Abbasi and Sebastian Stan",
+              "caption": "Ali Abbasi and Sebastian Stan",
+              "focalRegion": {
+                "x1": 142,
+                "x2": 510,
+                "y1": 64,
+                "y2": 152
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "AA5Hac5",
+            "name": "TheWrap",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAykw7c.img",
+            "profileId": "vid-d7xm3shw7x6g6yj27apj4u5jqfy5bn2uvu8hie87gpwd088ybmbs",
+            "lightThemeSVGLogo": {
+              "width": 90,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gyvS"
+            },
+            "darkThemeSVGLogo": {
+              "width": 90,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gyvS-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.914859116077423,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "TV",
+              "weight": 0.604893028736115,
+              "feedId": "Y_ecf14ace-5910-4da7-a26f-3919270f1200",
+              "locale": "en-us"
+            },
+            {
+              "label": "Entertainment",
+              "weight": 0.604893028736115,
+              "feedId": "Y_414a7c40-a373-4025-b4ce-e9502e9e17ed",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMxNr",
+          "type": "article",
+          "title": "Daycare Manager Who Strapped 9-Month-Old Girl Face Down on Beanbag Found Guilty of Manslaughter",
+          "abstract": "Kate Roughley, 37, left 9-month-old Genevieve Meehan unattended for 90 Minutes",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/news/crime/daycare-manager-who-strapped-9-month-old-girl-face-down-on-beanbag-found-guilty-of-manslaughter/ar-BB1mMxNr",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 189
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 9777
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 33
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:22:44Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1500,
+              "height": 1000,
+              "quality": 79,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMo2L.img",
+              "attribution": "Provided by People",
+              "title": "Genevieve Meehan",
+              "caption": "Genevieve Meehan",
+              "focalRegion": {
+                "x1": 632,
+                "x2": 1050,
+                "y1": 253,
+                "y2": 671
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBlOXnw",
+            "name": "People",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAywHbG.img",
+            "profileId": "vid-7gyfrgwpssqtux8j7bd33mesufqwx2tn5779gamm097vw8rchrus",
+            "lightThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J-dark"
+            }
+          },
+          "category": "news",
+          "reactionSummary": {
+            "totalCount": 8,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "totalCount": 7,
+                  "type": "upvote"
+                },
+                {
+                  "totalCount": 1,
+                  "type": "downvote"
+                }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "News",
+              "weight": 0.939062654972076,
+              "feedId": "Y_9eb0ac10-32bc-43cf-816e-5beaaf524f7a",
+              "locale": "en-us"
+            },
+            {
+              "label": "Celebrities",
+              "weight": 0.642666339874268,
+              "feedId": "Y_c78438b0-ec84-49ed-b8f8-49fc91059089",
+              "locale": "en-us"
+            },
+            {
+              "label": "Entertainment",
+              "weight": 0.642666339874268,
+              "feedId": "Y_414a7c40-a373-4025-b4ce-e9502e9e17ed",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMlJB",
+          "type": "article",
+          "title": "Jennifer Lopez Says She Can ‘Relate’ to Her ‘Very Misunderstood’ Character in “Atlas ”(Exclusive)",
+          "abstract": "\"We are both very strong and sure of what they feel,\" Lopez tells PEOPLE of the similarities between herself and her character Atlas Shepherd",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/movies/celebrity/jennifer-lopez-says-she-can-relate-to-her-very-misunderstood-character-in-atlas-exclusive/ar-BB1mMlJB",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 1867
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 54
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 8078
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:21:26Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1500,
+              "height": 1000,
+              "quality": 60,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMlIi.img",
+              "attribution": "Provided by People",
+              "title": "Jennifer Lopez and in character in 'Atlas'",
+              "caption": "Jennifer Lopez and in character in 'Atlas'",
+              "focalRegion": {
+                "x1": 215,
+                "x2": 1287,
+                "y1": 190,
+                "y2": 527
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBlOXnw",
+            "name": "People",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAywHbG.img",
+            "profileId": "vid-7gyfrgwpssqtux8j7bd33mesufqwx2tn5779gamm097vw8rchrus",
+            "lightThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J-dark"
+            }
+          },
+          "category": "movies",
+          "reactionSummary": {
+            "totalCount": 1,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "totalCount": 1,
+                  "type": "downvote"
+                }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Movies",
+              "weight": 0.939449965953827,
+              "feedId": "Y_2a7bc05a-60f4-46df-a4ef-e938b38a4ccd",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMlTu",
+          "type": "article",
+          "title": "Ciara Posts Weight Loss Update Amid Goal to Lose 70 Lbs",
+          "abstract": "Ciara gave birth to her fourth child, daughter Amora, with husband Russell Wilson in December.",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/health/other/ciara-posts-weight-loss-update-amid-goal-to-lose-70-lbs/ar-BB1mMlTu",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 9864
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 47
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 87
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:21:00Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1280,
+              "height": 720,
+              "quality": 81,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMqM1.img",
+              "attribution": "Gilbert Flores/Variety via Getty Images",
+              "title": "Ciara Posts Weight Loss Update Amid Goal to Lose 70 Lbs",
+              "focalRegion": {
+                "x1": 572,
+                "x2": 697,
+                "y1": 164,
+                "y2": 289
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBm7QvO",
+            "name": "ETOnline",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBm8qVB.img",
+            "profileId": "vid-hjsnbfvfqssdm2vqfigr7gbq4r8b2nre2jpmxi9q7aayv4qnb93a",
+            "lightThemeSVGLogo": {
+              "width": 21,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gU1z"
+            },
+            "darkThemeSVGLogo": {
+              "width": 21,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gU1z-dark"
+            }
+          },
+          "category": "health",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Health",
+              "weight": 0.99975997209549,
+              "feedId": "Y_c95b134f-a01c-4439-a13f-337ca34f37ea",
+              "locale": "en-us"
+            },
+            {
+              "label": "Health news",
+              "weight": 0.99975997209549,
+              "feedId": "Y_e9e6276b-7e2e-437e-8e9c-b45f1de22ba7",
+              "locale": "en-us"
+            },
+            {
+              "label": "Music",
+              "weight": 0.634019792079926,
+              "feedId": "Y_3c068646-d4b3-4f89-a21a-b286dd1a8c19",
+              "locale": "en-us"
+            },
+            {
+              "label": "Entertainment",
+              "weight": 0.634019792079926,
+              "feedId": "Y_414a7c40-a373-4025-b4ce-e9502e9e17ed",
+              "locale": "en-us"
+            },
+            {
+              "label": "Weight Loss",
+              "weight": 1,
+              "feedId": "Y_dd6ffcee-c451-4a3a-8c00-3a7b596062a4",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMqmp",
+          "type": "article",
+          "title": "1 Dead and Several Injured After Flight from London to Singapore Hit by ‘Severe Turbulence’",
+          "abstract": "The airline said there had been “one fatality” and “injuries” among the 211 passengers and 18 crew on board",
+          "readTimeMin": 2,
+          "url": "https://www.msn.com/en-us/travel/news/1-dead-and-several-injured-after-flight-from-london-to-singapore-hit-by-severe-turbulence/ar-BB1mMqmp",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 515
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 9232
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 252
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:15:36Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1500,
+              "height": 1000,
+              "quality": 79,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMnNj.img",
+              "attribution": "Provided by People",
+              "title": "A Singapore Airlines Boeing 777-300ER aircraft",
+              "caption": "A Singapore Airlines Boeing 777-300ER aircraft",
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBlOXnw",
+            "name": "People",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAywHbG.img",
+            "profileId": "vid-7gyfrgwpssqtux8j7bd33mesufqwx2tn5779gamm097vw8rchrus",
+            "lightThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J-dark"
+            }
+          },
+          "category": "travel",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 0
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Travel news",
+              "weight": 0.939835906028748,
+              "feedId": "Y_d659302d-5ac4-460a-9baa-8c8684761110",
+              "locale": "en-us"
+            },
+            {
+              "label": "Travel",
+              "weight": 0.939835906028748,
+              "feedId": "Y_d5d7002e-3d1e-453e-8b3a-cc05502992dc",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMsGL",
+          "type": "article",
+          "title": "Colton Underwood Expecting First Baby with Husband Jordan C. Brown",
+          "abstract": "The couple tied the knot in May 2023 after getting engaged the previous February",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/tv/celebrity/colton-underwood-expecting-first-baby-with-husband-jordan-c-brown/ar-BB1mMsGL",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 9059
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 49
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 891
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:14:05Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 2000,
+              "height": 1334,
+              "quality": 30,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1lw3Y3.img",
+              "attribution": "Provided by People",
+              "title": "Jordan C. Brown (left) and Colton Underwood",
+              "caption": "Jordan C. Brown (left) and Colton Underwood",
+              "focalRegion": {
+                "x1": 666,
+                "x2": 1453,
+                "y1": 231,
+                "y2": 622
+              },
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "BBlOXnw",
+            "name": "People",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAywHbG.img",
+            "profileId": "vid-7gyfrgwpssqtux8j7bd33mesufqwx2tn5779gamm097vw8rchrus",
+            "lightThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J"
+            },
+            "darkThemeSVGLogo": {
+              "width": 30,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13eu4J-dark"
+            }
+          },
+          "category": "tv",
+          "reactionSummary": {
+            "totalCount": 21,
+            "subReactionSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubReactionSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "totalCount": 15,
+                  "type": "downvote"
+                },
+                {
+                  "totalCount": 6,
+                  "type": "upvote"
+                }
+              ]
+            }
+          },
+          "reactionStatus": "on",
+          "commentSummary": {
+            "totalCount": 2,
+            "subCommentSummaries": {
+              "$type": "System.Collections.Generic.List`1[[Microsoft.NewsApi.Contracts.ViewModels.CardView.SubCommentSummary, Microsoft.NewsApi.Contracts.ViewModels]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "totalCount": 2,
+                  "type": "comment"
+                }
+              ]
+            }
+          },
+          "commentStatus": "on",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "TV",
+              "weight": 0.963115572929382,
+              "feedId": "Y_ecf14ace-5910-4da7-a26f-3919270f1200",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        },
+        {
+          "id": "BB1mMAxJ",
+          "type": "article",
+          "title": "Porter+Craig Film and Media Distribution Acquires Global Rights to Fado Filmes' ‘Nothing Ever Happened' (EXCLUSIVE)",
+          "abstract": "Porter+Craig Film and Media Distribution, run by veteran industry executives Jeff Porter and Keith L. Craig has acquired worldwide rights to Gonçalo Galvão Teles’ “Nothing Ever Happened.” The film has enjoyed considerable success on the festival circuit, including awards in the CinEuphoria Awards, Cinequest, Chicago Latino Film Festival, Mostra Internacional de São Paulo and Punta Del Est […]",
+          "readTimeMin": 3,
+          "url": "https://www.msn.com/en-us/movies/news/porter-craig-film-and-media-distribution-acquires-global-rights-to-fado-filmes-nothing-ever-happened-exclusive/ar-BB1mMAxJ",
+          "locale": "en-us",
+          "financeMetadata": {
+            "stocks": [],
+            "sentimentRatings": [
+              {
+                "topic": "wf_sentiment_positive",
+                "score": 8561
+              },
+              {
+                "topic": "wf_sentiment_negative",
+                "score": 35
+              },
+              {
+                "topic": "wf_sentiment_neutral",
+                "score": 1402
+              }
+            ],
+            "categories": []
+          },
+          "publishedDateTime": "2024-05-21T12:07:22Z",
+          "isFeatured": false,
+          "images": [
+            {
+              "width": 1000,
+              "height": 666,
+              "quality": 98,
+              "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1mMmsg.img",
+              "attribution": "Provided by Variety",
+              "title": "Porter+Craig Film and Media Distribution Acquires Global Rights to Fado Filmes' ‘Nothing Ever Happened' (EXCLUSIVE)",
+              "source": "msn"
+            }
+          ],
+          "provider": {
+            "id": "AA5LioA",
+            "name": "Variety",
+            "logoUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA6J22N.img",
+            "profileId": "vid-5rjfjr40gu645cpj6hw5famnjiet7c845t4u4kstc7kjqw3n868s",
+            "lightThemeSVGLogo": {
+              "width": 40,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gFtr"
+            },
+            "darkThemeSVGLogo": {
+              "width": 40,
+              "height": 12,
+              "url": "https://cdn.query.prod.cms.msn.com/cms/api/amp/binary/AA13gFtr-dark"
+            }
+          },
+          "category": "movies",
+          "reactionSummary": {
+            "totalCount": 0
+          },
+          "reactionStatus": "on",
+          "commentStatus": "off",
+          "subscriptionProductType": "undefined",
+          "feed": {
+            "id": "Y_bc2c9679-5233-428f-bd1c-99bbb44133f4",
+            "feedName": "Social Non News"
+          },
+          "topics": [
+            {
+              "label": "Movies",
+              "weight": 0.919067800045013,
+              "feedId": "Y_2a7bc05a-60f4-46df-a4ef-e938b38a4ccd",
+              "locale": "en-us"
+            },
+            {
+              "label": "Entertainment",
+              "weight": 0.919067800045013,
+              "feedId": "Y_414a7c40-a373-4025-b4ce-e9502e9e17ed",
+              "locale": "en-us"
+            }
+          ],
+          "isWorkNewsContent": false,
+          "source": "msn"
+        }
+      ]
+    }
+  ]
+}

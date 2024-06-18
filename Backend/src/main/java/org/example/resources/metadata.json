@@ -1,0 +1,14 @@
+{
+  "title": ["title", "headline", "name", "heading", "caption", "header", "subject", "titleText", "postTitle", "articleTitle"],
+  "description": ["description","abstract", "summary", "desc", "description", "content", "detail", "info", "summaryText", "bodyText", "fullArticle"],
+  "link": ["url", "link", "uri", "href", "permalink", "webUrl", "articleUrl", "postUrl", "navigationUrl", "sourceUrl"],
+  "publishDate": ["publishDate","publishedDateTime", "datePublished", "publishDate", "date", "publicationDate", "releaseDate", "createdAt", "time", "timestamp", "dateModified"],
+  "guid": ["id", "identifier", "guid", "uniqueId", "itemId", "articleId", "postId", "newsId", "entryId", "contentId"],
+  "image": ["images", "image", "media", "pictures", "photos", "gallery", "imageUrls", "mediaFiles", "thumbnails", "visuals"],
+  "author": ["author", "writer", "contributor", "creator", "byline", "composer", "publisher", "reporter", "journalist", "editor"],
+  "comments": ["comments", "commentary", "remarks", "discussion", "feedback", "opinions", "readires", "responses", "commentCount", "userComments"],
+  "imgURL": ["imgURL", "imageUrl", "image.url", "media.url", "picture", "photoUrl", "graphicUrl", "imageSource", "imageHref", "src", "url", "uri"],
+  "imgType": ["imgType", "imageType", "mediaType", "mimeType", "fileType", "image.format", "format", "contentType", "extension", "mediaFormat"],
+  "imgLength": ["imgLength", "imageHeight", "height", "image.height", "media.height", "pictureHeight", "photoHeight", "visualHeight", "frameHeight", "graphicHeight", "length"],
+  "imgWidth": ["imgWidth", "imageWidth", "width", "image.width", "media.width", "pictureWidth", "photoWidth", "visualWidth", "frameWidth", "graphicWidth"]
+}
