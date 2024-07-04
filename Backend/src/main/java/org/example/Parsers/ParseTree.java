@@ -26,8 +26,10 @@ import java.util.stream.Collectors;
 @Service
 public class ParseTree {
 
-
-    // Method to parse XML and return a map of tags and their paths
+    /* Method to parse XML and return a map of tags and their paths
+     * @param xmlContent - XML content
+     * @return Map of tags and their paths
+     */
     public Map<String, String> parseXML(String xmlContent) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
@@ -38,6 +40,11 @@ public class ParseTree {
         return fields;
     }
 
+    /* Method to traverse the XML tree and store the paths of the tags in a map
+     * @param node - XML node
+     * @param path - Path of the current node
+     * @param fields - Map to store the paths of the tags
+     */
     private void traverseXML(Node node, String path, Map<String, String> fields) {
         String currentPath = path.isEmpty() ? node.getNodeName() : path + "." + node.getNodeName();
         fields.put(currentPath, node.getNodeValue());
@@ -50,7 +57,10 @@ public class ParseTree {
         }
     }
 
-    // Method to parse JSON and return a map of keys and their paths
+    /* Method to parse JSON and return a map of keys and their paths
+     * @param jsonContent - JSON content
+     * @return Map of keys and their paths
+     */
     public Map<String, String> parseJSON(String jsonContent) throws Exception {
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode rootNode = objectMapper.readTree(jsonContent);
@@ -60,6 +70,11 @@ public class ParseTree {
         return fields;
     }
 
+    /* Method to traverse the JSON tree and store the paths of the keys in a map
+     * @param node - JSON node
+     * @param path - Path of the current node
+     * @param fields - Map to store the paths of the keys
+     */
     private void traverseJSON(JsonNode node, String path, Map<String, String> fields) {
         if (node.isObject()) {
             node.fields().forEachRemaining(entry -> {
@@ -91,7 +106,7 @@ public class ParseTree {
         List<FeedData> feedDataList = new ArrayList<>();
 
         Map<String, String> cleanedMetadata = cleanMetadataPaths(metadata);
-//        System.out.println("CHECKPOINT #1 (parseJsonUsingMetadata) - Cleaned metadata: " + cleanedMetadata);
+        System.out.println("CHECKPOINT #1 (parseJsonUsingMetadata) - Cleaned metadata: " + cleanedMetadata);
 
         String maxOverlapKey = maxOverlap(cleanedMetadata);
 //        System.out.println("CHECKPOINT #2 (parseJsonUsingMetadata) - Max overlap key: " + maxOverlapKey);
@@ -103,6 +118,15 @@ public class ParseTree {
         return feedDataList;
     }
 
+    /**
+     * Method to traverse the JSON tree to the maximum overlap key and extract the feed data.
+     *
+     * @param maxOverlapKey - Maximum overlap key
+     * @param jsonElement   - JSON element
+     * @param feedDataList  - List of FeedData objects
+     * @param cleanedMetadata - Cleaned metadata containing field mappings
+     * @return List of FeedData objects
+     */
     private List<FeedData> traverseToMaxOverlap(String maxOverlapKey, JsonElement jsonElement, List<FeedData> feedDataList, Map<String, String> cleanedMetadata) {
         String[] keys = maxOverlapKey.split("\\.");
         JsonElement element = jsonElement;
@@ -134,6 +158,14 @@ public class ParseTree {
         return feedDataList;
     }
 
+    /**
+     * Method to parse the JSON object and extract the feed data based on the cleaned metadata.
+     *
+     * @param itemObject - JSON object representing an item in the feed
+     * @param feedDataList - List of FeedData objects
+     * @param cleanedMetadata - Cleaned metadata containing field mappings
+     * @param maxOverlapKey - Maximum overlap key
+     */
     private void parseItem(JsonObject itemObject, List<FeedData> feedDataList, Map<String, String> cleanedMetadata, String maxOverlapKey) {
         FeedData feedData = new FeedData();
         int prefixLength = maxOverlapKey.length();
@@ -219,6 +251,13 @@ public class ParseTree {
     }
 
 
+    /**
+     * Method to handle array elements in JSON.
+     *
+     * @param jsonArray - JSON array
+     * @param key - Key to be searched in the array
+     * @return JSON element
+     */
     private JsonElement handleArray(JsonArray jsonArray, String key) {
         try {
             int index = Integer.parseInt(key);
@@ -232,7 +271,11 @@ public class ParseTree {
         }
         return null;
     }
-
+    /*
+    * Method to find the maximum overlap in the metadata paths.
+    * @param cleanedMetadata - Cleaned metadata containing field mappings
+    * @return Maximum overlap key
+    */
     private String maxOverlap(Map<String, String> cleanedMetadata) {
         String minLenValue = "";
         int minLen = Integer.MAX_VALUE;
@@ -255,6 +298,12 @@ public class ParseTree {
         return "null";
     }
 
+    /**
+     * Method to clean the metadata paths by removing the array indices.
+     *
+     * @param metadata - Metadata containing field mappings
+     * @return Cleaned metadata containing field mappings
+     */
     private Map<String, String> cleanMetadataPaths(Map<String, String> metadata) {
         Pattern pattern = Pattern.compile("\\[.*?\\]");
         Map<String, String> cleanedMetadata = metadata.entrySet().stream()

@@ -1,0 +1,18 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Example Feed",
+  "items": [
+    {
+      "id": "1",
+      "title": "First Item",
+      "content_text": "This is the first item."
+    },
+    {
+      "id": "2",
+      "title": "Second Item",
+      "content_text": "This is the second item."
+    }
+  ]
+}
+
+

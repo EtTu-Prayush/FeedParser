@@ -56,25 +56,41 @@ public class FeedHandler {
         }
     }
 
+//    /**
+//     * Method to get the feed queue
+//     * @return the feed queue
+//     */
+//    public void addFeed(FeedData feed) {
+//        if (!guids.contains(feed.getGuid())) {
+//            if(!titles.contains(feed.getTitle()))
+//            {
+//                feedQueue.add(feed);
+//                guids.add(feed.getGuid());
+//                saveFeedsToFile();
+//            }
+//        }
+//    }
+
     /**
      * Method to get the feed queue
      * @return the feed queue
      */
     public void addFeed(FeedData feed) {
-        if (!guids.contains(feed.getGuid())) {
-            feedQueue.add(feed);
-            guids.add(feed.getGuid());
-            saveFeedsToFile();
-        }
+        if(!titles.contains(feed.getTitle()))
+            {
+                feedQueue.add(feed);
+                titles.add(feed.getTitle());
+                saveFeedsToFile();
+            }
     }
 
-    public void addmetadataFeed(FeedData feed) {
-        if(!titles.contains(feed.getTitle())) {
-            feedQueue.add(feed);
-            titles.add(feed.getTitle());
-            saveFeedsToFile();
-        }
-    }
+//    public void addmetadataFeed(FeedData feed) {
+//        if (!titles.contains(feed.getTitle())) {
+//            feedQueue.add(feed);
+//            titles.add(feed.getTitle());
+//            saveFeedsToFile();
+//        }
+//    }
 
     /**
      * Method to add feeds
@@ -127,6 +143,7 @@ public class FeedHandler {
         try {
             File file = new File(FILE_PATH);
             if (file.exists()) {
+                feedQueue.clear();
                 file.delete();
                 file.createNewFile();
             }
@@ -142,7 +159,10 @@ public class FeedHandler {
     public void clearFeeds() {
         feedQueue.clear();
         guids.clear();
+        titles.clear();
+        clearFile();
         saveFeedsToFile();
+
     }
 
 }

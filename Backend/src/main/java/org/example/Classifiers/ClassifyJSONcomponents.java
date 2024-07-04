@@ -80,27 +80,27 @@ public class ClassifyJSONcomponents {
         /**
          * This block of code is used to check the similarity between the tags in the JSON object and the field mappings.
          */
-//        for (String tags : jsonObject.keySet()) {
-//            double max_similarity = 0.0;
-//            for(String  key: fieldMappings.keySet()) {
-//                if(!mapped.contains(key)) {
-//                    double max_local = 0.0;
-//                    for(String field: fieldMappings.get(key)) {
-//                        double similarity = embeddings.cosineSimilarity(tags, field);
-//                        if(similarity > max_local) {
-//                            max_local = similarity;
-//                        }
-//                    }
-//                    if(max_local > max_similarity) {
-//                        System.out.println("Max Similarity: " + max_local + " for " + tags + " and " + key);
-//                        max_similarity = max_local;
-//                    }
-//                }
-//            }
-//            if(max_similarity > 0.8) {
-//                matches++;
-//            }
-//        }
+        for (String tags : jsonObject.keySet()) {
+            double max_similarity = 0.0;
+            for(String  key: fieldMappings.keySet()) {
+                if(!mapped.contains(key)) {
+                    double max_local = 0.0;
+                    for(String field: fieldMappings.get(key)) {
+                        double similarity = embeddings.cosineSimilarity(tags, field);
+                        if(similarity > max_local) {
+                            max_local = similarity;
+                        }
+                    }
+                    if(max_local > max_similarity) {
+                        System.out.println("Max Similarity: " + max_local + " for " + tags + " and " + key);
+                        max_similarity = max_local;
+                    }
+                }
+            }
+            if(max_similarity > 0.8) {
+                matches++;
+            }
+        }
 
         double totalParams = fieldMappings.size() - 4.0;
         double matchRatio = (double) matches / totalParams;
